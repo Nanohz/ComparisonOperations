@@ -6,6 +6,7 @@ namespace CsharpM1
     {
         public static void Main(string[] args)
         {
+            //This is a program using the comparison operator to compare a two different salary amounts
             Console.WriteLine("Anonymous Income Comparison Program");
             Console.ReadLine();
             int hourlyRate = 12;
@@ -16,7 +17,7 @@ namespace CsharpM1
             Console.ReadLine();
             int hourlyRate2 = 25;
             int hoursWorkedWeekly2 = 40;
-
+            // Lines 25 and 28 demonstrate the multiplication operator so that we can return the product of hours worked and hourly salary
             Console.WriteLine("Person 2 hourly pay rate is equal to ? " + " " + "$"+ hourlyRate2);
             Console.ReadLine();
             Console.WriteLine("Hours worked per week?" + " " + hoursWorkedWeekly2);
@@ -29,7 +30,7 @@ namespace CsharpM1
             Console.Write("Weekly salary of Person 1 :" + " " + "$" + salaryPerson2);
             Console.ReadLine();
             Console.WriteLine("Does Person 1 make more money than Person 2?");
-
+            // An if statment is used to compare the salaries of Person 1 to Person 2
             if (salaryPerson1 > salaryPerson2)
             {
 
